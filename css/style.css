@@ -1,0 +1,102 @@
+/* Цвет оглавлений текста #212121 */
+/* Цвет основного текста #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный для подвала rgba(255, 255, 255, 0.6); */
+/* цвет body фона #e5e5e5 */
+/* цвет фона команды #f5f4fa */
+/* цвет фона героя  #2F303A; */
+:root {
+  --main-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-text: #2196f3;
+  --white: #ffffff;
+  --background-body-section: #e5e5e5;
+  --background-team-section: #f5f4fa;
+  --background-hero-section: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+/* общие */
+.body {
+  background-color: var(--background-features-section);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.section-title {
+  color: var(--main-text-color);
+}
+/* Делаем шапку */
+.page-header {
+  background-color: var(--white);
+}
+/* название фирмы */
+.first-firm-name {
+  color: var(--accent-text);
+}
+.second-firm-name {
+  color: var(--main-text-color);
+}
+/* навигация сайта */
+.site-nav .link {
+  color: var(--main-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text);
+}
+.contact {
+  color: var(--title-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-text);
+}
+/* делаем блок герой */
+.hero {
+  background-color: var(--background-hero-section);
+}
+.hero-title {
+  color: var(--white);
+}
+.hero .link {
+  color: var(--white);
+}
+.hero .link {
+  background-color: var(--accent-text);
+}
+/* блок особеностей */
+.features .title {
+  color: var(--main-text-color);
+}
+.text {
+  color: var(--title-text-color);
+}
+/* чем мы занимаемся, нечего размечать, все в других блоках*/
+
+/* наша команда */
+.section.team {
+  background-color: var(--background-team-section);
+}
+.staff-name {
+  color: var(--main-text-color);
+}
+.specialty {
+  color: var(--title-text-color);
+}
+/* подвал */
+.page-footer {
+  background-color: var(--background-hero-section);
+}
+.third-firm-name {
+  color: #ffffff;
+}
+.address {
+  color: var(--white);
+}
+.page-footer .link {
+  color: var(--footer-link-color);
+}
